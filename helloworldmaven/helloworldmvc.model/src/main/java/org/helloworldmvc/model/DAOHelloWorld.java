@@ -9,7 +9,7 @@ public class DAOHelloWorld {
 	private static DAOHelloWorld instance = null;
 	private String helloWorldMessage = null;
 	
-	private DAOHelloWorld() {
+	public DAOHelloWorld() {
 		
 	}
 	
